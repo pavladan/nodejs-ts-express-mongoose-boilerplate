@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "types": ["@types/jest"],
+    "paths": {
+      "*": ["node_modules/*"]
+    },
+    "typeRoots": ["./src/types/*"]
+  },
+  "include": ["src/**/*"]
+}
